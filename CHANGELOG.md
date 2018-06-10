@@ -1,12 +1,30 @@
 # Gamelocker / Vainglory Changelog
 
-## [GAMELOCKER API] (UPCOMING)
+## [GAMELOCKER API] Version 7.3.0
 
-Data retention will be lowered from 12 to 4 months.
-NOTE: This will happen continuously.
+Changes
+* Data retention is now 4 months
+* API will no longer 504 if requests are sent for time periods where data doesn't exist [#248](https://github.com/madglory/gamelocker-vainglory/issues/248)
+* played_aral and played_blitz datapoints are now available [#270](https://github.com/madglory/gamelocker-vainglory/issues/270)
 
-Players that have not been updated since May 1 will be removed.
-NOTE: This is a one time only purge to clear out old players.
+## [VG DATA] Version 2.9
+[#308](https://github.com/gamelocker/vainglory-assets/pull/308)
+
+## [VG DATA] Version 2.8
+
+Skins:
+* `Glaive_Skin_Lion` (Glaive)
+* `Ringo_Skin_Cowboy` (Ringo)
+* `Idris_Skin_Egypt` (Idris)
+
+Items:
+* `*Item_HealingFlask*` (Healing Flask)
+* `*Item_Spellsword*` (Spellsword)
+
+
+## [GAMELOCKER API] Version 6.8.6
+- PBE data is now available to approved community developers.
+- Future times are now supported
 
 ## [VG DATA] Version 2.7
 

@@ -1,38 +1,50 @@
-Vainglory Developer API Documentation
+Vainglory Developer Resources
 -------------
-This documentation was built with love by the Vainglory Developer Community. 
+This repository has a bunch of things including documentation, resources, and more
+that making using the Vainglory API more convenient.
+
+This information was built with love by the Vainglory Developer Community.
 
 ![Image of OctOPAF](https://github.com/BrianGlory/images/blob/master/octopaf.png)
 
+## Join Us!
 
-## Features
+The Discord server is a common hangout for library and app developers alike. It's a great starting point for those looking to dive in and learn how to create things with the Vainglory API.
 
-### Current Features
+[![](https://discordapp.com/api/guilds/272248892161261569/embed.png)](https://discord.gg/sD7j8P)
 
-* Matches
-* Telemetry
-* Player Profiles
-* Sample Sets
+## What's Included
 
-### In-Development Features
+The repository contains:
+  * Assets
+    * Art - Images for in-game heros, items, and more.
+    * Dictionaries - Translate keys provided by the API to human readable values
+  * Schemas - Descriptions of the current (and planned) objects returns by the API
+  * Docs - The special `docs` branch contains all of the [Gitbook Formatted Guides](https://www.gitbook.com/book/gamelocker/vainglory) presented on the [Vainglory Developer API Website](https://developer.vainglorygame.com).
+  * Project Board & Roadmap
 
-* Better Data Validation - Open source JSON schema, which is used on backend and shared with community
-* Armory - Stats for in-game items, heros, abilitys, etc.
-* Guilds Data
-* Expanded Team Data
+## Contributing
 
-### Requested Features
+We're always looking for new contributors and maintainers.  Specifically, we need
+help in the following areas:
 
-[![Feature Requests](http://feathub.com/madglory/gamelocker-vainglory?format=svg)](http://feathub.com/madglory/gamelocker-vainglory)
+  * Ensure high quality bug submissions
+  * Reviewing new feature requests
+  * Translating [Gitbook Formatted Guides](https://www.gitbook.com/book/gamelocker/vainglory)
+  * Contributing other useful assets and dictionaries
 
-### Submit a Feature Request
-To submit a feature request, please use our Feature Voting app.
+We provide a `Makefile` with various bits of automation for contributing to this repository.
 
-[![Feature Requests](https://cloud.githubusercontent.com/assets/390379/10127973/045b3a96-6560-11e5-9b20-31a2032956b2.png)](http://feathub.com/madglory/gamelocker-vainglory)
+To read about what tools are available, simple type:
 
+    make
 
-Special Thanks
---------------------
+For instance, to install dependencies:
+
+    make deps
+
+## Special Thanks
+
   * [BrianGlory](http://twitter.com/BrianGlory) :: IGN Brian (NA) // [VGNY | Vainglory New York](http://www.vgny.org)
   * Dom
   * nullPoint3r [vgminer.com](http://www.vgminer.com) :: IGN nullPoint3r (NA)
